@@ -9,7 +9,8 @@ arr1.reverse();
 console.log(arr1);
 // 3
 var  fruits = ["Banana", "Orange", "Apple", "Mango"];
-for(var i = 0; i <= 3; i++){
+var howmany = (fruits.length)
+for(var i = 0; i <= howmany; i++){
   console.log(fruits[i]);
 }
 // 4
@@ -20,6 +21,5 @@ for(; start >= 0; start--) {
 }
 // 5
 var arr2 = ['lol','kek','chebyraska'];
-arr2.pop();
-arr2.push('chebyreck');
+arr2.splice(-1, 1, 'chebureck')
 console.log(arr2);
